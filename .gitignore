@@ -1,0 +1,7 @@
+venv/
+node_modules/
+dist/
+win-unpacked/
+__pycache__/
+*.pyc
+*.log

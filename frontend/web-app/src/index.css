@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  background: #0b1120;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  padding: 20px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.header h1 {
+  margin: 0;
+}
+
+.toolbar {
+  padding: 15px;
+  border-bottom: 1px solid #1e293b;
+}
+
+.toolbar input {
+  width: 350px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #334155;
+  background: #111827;
+  color: white;
+}
+
+.main-content {
+  flex: 1;
+  display: flex;
+}
+
+.traffic-panel {
+  width: 70%;
+  overflow-y: auto;
+  border-right: 1px solid #1e293b;
+  padding: 15px;
+}
+
+.details-panel {
+  width: 30%;
+  padding: 15px;
+}
+
+.request-row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 12px;
+  border-bottom: 1px solid #1e293b;
+  cursor: pointer;
+}
+
+.request-row:hover {
+  background: #172033;
+}
+
+.method {
+  width: 70px;
+  font-weight: bold;
+}
+
+.method-get {
+  color: #22c55e;
+}
+
+.method-post {
+  color: #3b82f6;
+}
+
+.method-put {
+  color: #f59e0b;
+}
+
+.method-delete {
+  color: #ef4444;
+}
+
+.host {
+  color: #cbd5e1;
+}
+
+.detail-box {
+  background: #111827;
+  border: 1px solid #334155;
+  border-radius: 8px;
+  padding: 12px;
+  margin-bottom: 12px;
+  word-break: break-word;
+}
